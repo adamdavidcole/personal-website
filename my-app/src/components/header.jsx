@@ -11,8 +11,8 @@ export default function Header() {
         <img src={brandstamp} />
       </div>
 
-      <div className="p-header__top_bar">
-        <div className="p-header__title_container--dmd">
+      <div className="p-header__title_container--dmd">
+        <div className="p-header__left_content">
           <div className="p-header__brandstamp--dmd">
             <img src={simpleBrandstamp} />
           </div>
@@ -25,11 +25,11 @@ export default function Header() {
             </div>
           </Link>
         </div>
-
-        <div className="p-header__nav_group p-header__navigation_filters--pages">
-          <Link to="/about">About</Link>
-          <span className="p-header__navigation_dot">·</span>
-          <Link to="/resume">Resume</Link>
+        <div>
+          <div className="p-header__nav_group p-header__navigation_filters--pages">
+            <Link to="/about">About</Link>
+            <Link to="/resume">Resume</Link>
+          </div>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ export default function Header() {
       {/* <div className="p-header__title">
         <Link to="/">Adam David Cole</Link>
       </div> */}
-
+{/*
       <div className="p-header__navigation">
         <div className="p-header__nav_group p-header__navigation_filters--filters">
           <Link to="/code">Code</Link>
@@ -50,7 +50,7 @@ export default function Header() {
           <Link to="/film-animation">Film & Animation</Link>
           <span className="p-header__navigation_dot">·</span>
           <Link to="/art">Art</Link>
-        </div>
+        </div> */}
         {/* <div className="p-header__nav_group p-header__navigation_filters--pages">
           <Link to="/about">About</Link>
           <span className="p-header__navigation_dot">·</span>
