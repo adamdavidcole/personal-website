@@ -5,12 +5,14 @@ import Header from "./components/header";
 import About from "./components/about";
 import Resume from "./components/resume";
 import Home from "./components/home";
+import PageLoader from "./components/page-loader";
 
 import "./App.css";
 
 function App() {
   return (
     <Router>
+      <PageLoader />
       <Header />
       <Switch>
         <Route path="/about">

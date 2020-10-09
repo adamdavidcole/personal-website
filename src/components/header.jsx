@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import AdamDavidColeStylizedName from "../assets/AdamDavidCole-StylizedName.svg";
 import brandstamp from "../assets/brandstamp.svg";
-import simpleBrandstamp from "../assets/simple-brand-ac.svg";
+import simpleBrandstamp from "../assets/thicker-brandstamp-simple-36.svg";
 
 export default function Header() {
   return (

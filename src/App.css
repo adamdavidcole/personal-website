@@ -1,11 +1,41 @@
 body {
   background: #f5f5f5;
   font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  height: 100%;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #333333;
+}
+
+.p-page-loader__page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.p-page-loader__page--fadout {
+  opacity: 0;
+}
+
+.p-page-loader__image_container {
+  height: 350px;
+}
+
+.p-page-loader__image_container img {
+  height: 100%;
 }
 
 /*
@@ -99,9 +129,7 @@ a {
 }
 
 .p-header__nav_group a {
-  color: #333333;
   text-transform: uppercase;
-  font-size: 15px;
 }
 
 .p-header__navigation_filters--pages a {
@@ -144,12 +172,33 @@ a {
     margin-bottom: 30px;
   }
 
-  .p-header__navigation a:not(:last-child) {
-    margin-right: 5px;
+  .p-header__nav_group a:not(:last-child) {
+    margin-right: 15px;
   }
 
-  .p-header__nav_group {
+  .p-header__nav_group a {
     font-size: 13px;
+    line-height: 13px;
+  }
+
+  .p-header__navigation_filters--pages {
+    position: relative;
+    top: 2px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .p-header {
+    font-size: 18px;
+  }
+
+  .p-header__title--dmd {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .p-header__brandstamp--dmd {
+    height: 85px;
   }
 }
 

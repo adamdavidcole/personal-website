@@ -2,6 +2,7 @@ import React from "react";
 import { find } from "lodash";
 import { useParams } from "react-router-dom";
 
+import animatedBrandstamp from "../assets/brandstamp-minified.gif";
 import ProjectGrid from "./project-grid";
 import projects from "../data/projects.json";
 
