@@ -9,13 +9,15 @@
     "id": "day-42",
     "name": "Day 42",
     "category": "film-animation",
-    "thubmnail": "/img/day-42/thumbnail.png"
+    "thubmnail": "/img/day-42/thumbnail.png",
+    "vimeoEmbed": "https://player.vimeo.com/video/422586682?portrait=0"
   },
   {
     "id": "cherry",
     "name": "Cherry",
     "category": "film-animation",
-    "thubmnail": "/img/cherry/thumbnail.png"
+    "thubmnail": "/img/cherry/thumbnail.png",
+    "vimeoEmbed": "https://player.vimeo.com/video/115048712"
   },
   {
     "id": "american-takeout",
@@ -33,7 +35,10 @@
     "id": "ikea-warehouse",
     "name": "3D Modeling: Warehouse",
     "category": "art",
-    "thubmnail": "/img/ikea-warehouse/thumbnail.png"
+    "thubmnail": "/img/ikea-warehouse/thumbnail.png",
+    "images": [
+      "/img/ikea-warehouse/image1.png"
+    ]
   },
   {
     "id": "ilux",
@@ -45,7 +50,12 @@
     "id": "monte-carlo-ray-tracing",
     "name": "Monte Carlo Ray Tracer",
     "category": "code",
-    "thubmnail": "/img/monte-carlo-ray-tracing/thumbnail.png"
+    "thubmnail": "/img/monte-carlo-ray-tracing/thumbnail.png",
+    "images": [
+      "/img/monte-carlo-ray-tracing/thumbnail.png",
+      "/img/monte-carlo-ray-tracing/image2.png",
+      "/img/monte-carlo-ray-tracing/image3.png"
+    ]
   },
   {
     "id": "motor-skills-rehab",
@@ -57,7 +67,8 @@
     "id": "perdue",
     "name": "Perdue (Lost)",
     "category": "film-animation",
-    "thubmnail": "/img/perdue/thumbnail.png"
+    "thubmnail": "/img/perdue/thumbnail.png",
+    "vimeoEmbed": "https://player.vimeo.com/video/377025674?portrait=0"
   },
   {
     "id": "processing",
@@ -69,7 +80,8 @@
     "id": "she-doesnt-know",
     "name": "She Doesn't Know",
     "category": "art",
-    "thubmnail": "/img/she-doesnt-know/thumbnail.png"
+    "thubmnail": "/img/she-doesnt-know/thumbnail.png",
+    "vimeoEmbed": "https://player.vimeo.com/video/69353912?portrait=0"
   },
   {
     "id": "subplot-branding",
@@ -81,13 +93,21 @@
     "id": "the-artist-is-not-present",
     "name": "The Artist is Not Present",
     "category": "art",
-    "thubmnail": "/img/the-artist-is-not-present/thumbnail.png"
+    "thubmnail": "/img/the-artist-is-not-present/thumbnail.png",
+    "images": [
+      "/img/the-artist-is-not-present/image1.jpg",
+      "/img/the-artist-is-not-present/image2.jpg",
+      "/img/the-artist-is-not-present/image3.png",
+      "/img/the-artist-is-not-present/image4.png",
+      "/img/the-artist-is-not-present/image5.jpg"
+    ]
   },
   {
     "id": "three____",
     "name": "Three____",
     "category": "film-animation",
-    "thubmnail": "/img/three____/thumbnail.png"
+    "thubmnail": "/img/three____/thumbnail.png",
+    "vimeoEmbed": "https://player.vimeo.com/video/27101594?portrait=0"
   },
   {
     "id": "virtual_gaga",

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import classNames from "classnames";
 
 import animatedBrandstamp from "../assets/brandstamp-minified.gif";
+import tightBrandstamp from "../assets/tight-brandstamp.gif";
 
 function toggleScroll(enableScroll) {
   const nextBodyDisplayProp = enableScroll ? "scroll" : "hidden";
@@ -17,9 +18,9 @@ export default function PageLoader() {
   useEffect(() => {
     toggleScroll(false);
 
-    console.log("page-load", animatedBrandstamp);
+    console.log("page-load", tightBrandstamp);
     const img = new Image();
-    img.src = animatedBrandstamp;
+    img.src = tightBrandstamp;
     img.onload = () => {
       setImageLoaded(true);
     };

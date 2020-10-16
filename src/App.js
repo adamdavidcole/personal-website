@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import smoothscroll from "smoothscroll-polyfill";
 
 import Header from "./components/header";
 import About from "./components/about";
@@ -10,6 +11,8 @@ import PageLoader from "./components/page-loader";
 import "./App.css";
 
 function App() {
+  smoothscroll.polyfill();
+
   return (
     <Router>
       <PageLoader />

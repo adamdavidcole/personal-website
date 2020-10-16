@@ -10,13 +10,20 @@
     "classnames": "^2.2.6",
     "gh-pages": "^3.1.0",
     "lodash": "^4.17.20",
+    "node-sass": "^4.14.1",
     "prettier": "^2.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-masonry-component": "^6.2.1",
     "react-masonry-css": "^1.0.14",
+    "react-responsive-carousel": "^3.2.10",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "react-slick": "^0.27.11",
+    "react-transition-group": "1.x",
+    "slick-carousel": "^1.8.1",
+    "smoothscroll-polyfill": "^0.4.4",
+    "swiper": "^6.3.3"
   },
   "scripts": {
     "predeploy": "npm run build",

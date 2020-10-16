@@ -2,8 +2,6 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 
 function ProjectGridCard({ history, project, route }) {
-  console.log("history", history);
-
   return (
     <div
       onClick={() => {

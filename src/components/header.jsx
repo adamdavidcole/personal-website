@@ -33,16 +33,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* <div className="p-header__title">
-        <Link to="/">
-          <img src={AdamDavidColeStylizedName} />
-        </Link>
-      </div> */}
-
-      {/* <div className="p-header__title">
-        <Link to="/">Adam David Cole</Link>
-      </div> */}
-
       <div className="p-header__navigation">
         <div className="p-header__nav_group p-header__navigation_filters--filters">
           <Link to="/code">Code</Link>
@@ -51,13 +41,6 @@ export default function Header() {
           <span className="p-header__navigation_dot">·</span>
           <Link to="/art">Art</Link>
         </div>
-        {/* <div className="p-header__nav_group p-header__navigation_filters--pages">
-          <Link to="/about">About</Link>
-          <span className="p-header__navigation_dot">·</span>
-          <Link to="/resume">Resume</Link>
-          <span className="p-header__navigation_dot">·</span>
-          <Link to="/contact">Contact</Link>
-        </div> */}
       </div>
     </div>
   );

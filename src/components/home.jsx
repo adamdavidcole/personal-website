@@ -1,24 +1,22 @@
 import React from "react";
 import { find } from "lodash";
 import { useParams } from "react-router-dom";
+import { CSSTransitionGroup } from "react-transition-group";
 
-import animatedBrandstamp from "../assets/brandstamp-minified.gif";
+import { getSelectedProjectById } from "../utility";
+
 import ProjectGrid from "./project-grid";
+import ProjectContainer from "./project/project-container";
 import projects from "../data/projects.json";
 
 export default function Home() {
-  const { projectId } = useParams();
+  const { projectId, projectsFilter } = useParams();
 
-  const selectedProject =
-    projectId && find(projects, (project) => project.id === projectId);
+  const selectedProject = getSelectedProjectById({ projectId });
 
   return (
     <div className="p-home">
-      {selectedProject && (
-        <div className="p-home__selected_project">
-          <h1>{selectedProject.name}</h1>
-        </div>
-      )}
+      <ProjectContainer project={selectedProject} />
       <ProjectGrid projects={projects} />
     </div>
   );

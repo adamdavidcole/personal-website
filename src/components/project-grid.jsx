@@ -1,29 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { times, find, filter } from "lodash";
 import classNames from "classnames";
 import Masonry from "react-masonry-css";
 import { useParams } from "react-router-dom";
+
+import { getFilteredProjects, getProjectUrl } from "../utility";
 
 import ProjectGridCard from "./project-grid-card";
 
 // breakpoint rules for masonry grid
 const BREAKPOINT_COLUMNS_OBJ = {
   default: 4,
-  1100: 3,
+  1400: 3,
   700: 2,
   //   500: 1,
 };
 
 export default function ProjectGrid({ projects }) {
-  const { projectsFilter } = useParams();
+  const { projectsFilter, projectId } = useParams();
 
   // set of projects to render based on the users chosen filter
-  const projectsToRender = projectsFilter
-    ? filter(projects, (project) => project.category === projectsFilter)
-    : projects;
-
-  // subroute to use for project cards
-  const subroute = projectsFilter || "projects";
+  const projectsToRender = getFilteredProjects({ projectsFilter });
 
   return (
     <div className="p-project-grid__container">
@@ -35,7 +32,7 @@ export default function ProjectGrid({ projects }) {
         {projectsToRender.map((project) => (
           <ProjectGridCard
             project={project}
-            route={`/${subroute}/${project.id}`}
+            route={getProjectUrl({ projectId: project.id, projectsFilter })}
           />
         ))}
       </Masonry>
