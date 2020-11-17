@@ -2,6 +2,8 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 
 function ProjectGridCard({ history, project, route }) {
+  const thumbnailUrl = process.env.PUBLIC_URL + project.thubmnail;
+
   return (
     <div
       onClick={() => {
@@ -9,7 +11,7 @@ function ProjectGridCard({ history, project, route }) {
       }}
       className="p-project-grid-card"
     >
-      <img src={process.env.PUBLIC_URL + project.thubmnail} />
+      <img src={thumbnailUrl} />
       <div className="p-project-grid-card__description">{project.name}</div>
     </div>
   );

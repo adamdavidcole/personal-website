@@ -3,7 +3,8 @@
     "id": "slack-frontend-engineering",
     "name": "Frotend Engineering @ Slack",
     "category": "code",
-    "thubmnail": "/img/slack-frontend-engineering/thumbnail2.png"
+    "thubmnail": "/img/slack-frontend-engineering/thumbnail2.png",
+    "isFeaturedProject": true
   },
   {
     "id": "day-42",
@@ -17,7 +18,8 @@
     "name": "Cherry",
     "category": "film-animation",
     "thubmnail": "/img/cherry/thumbnail.png",
-    "vimeoEmbed": "https://player.vimeo.com/video/115048712"
+    "vimeoEmbed": "https://player.vimeo.com/video/115048712",
+    "isFeaturedProject": true
   },
   {
     "id": "american-takeout",
@@ -36,9 +38,7 @@
     "name": "3D Modeling: Warehouse",
     "category": "art",
     "thubmnail": "/img/ikea-warehouse/thumbnail.png",
-    "images": [
-      "/img/ikea-warehouse/image1.png"
-    ]
+    "images": ["/img/ikea-warehouse/image1.png"]
   },
   {
     "id": "ilux",
@@ -55,7 +55,8 @@
       "/img/monte-carlo-ray-tracing/thumbnail.png",
       "/img/monte-carlo-ray-tracing/image2.png",
       "/img/monte-carlo-ray-tracing/image3.png"
-    ]
+    ],
+    "isFeaturedProject": true
   },
   {
     "id": "motor-skills-rehab",

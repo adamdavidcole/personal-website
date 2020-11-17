@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { times, find, filter } from "lodash";
 import classNames from "classnames";
 import Masonry from "react-masonry-css";
-import { useParams } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 
 import { getFilteredProjects, getProjectUrl } from "../utility";
 
@@ -16,14 +16,36 @@ const BREAKPOINT_COLUMNS_OBJ = {
   //   500: 1,
 };
 
+function getGridHeaderTitle({ projectsFilter }) {
+  if (!projectsFilter) return "All";
+
+  if (projectsFilter === "code") return "Code";
+  if (projectsFilter === "film-animation") return "Film & Animation";
+  if (projectsFilter === "art") return "Art";
+
+  return null;
+}
+
 export default function ProjectGrid({ projects }) {
   const { projectsFilter, projectId } = useParams();
+  const { pathname } = useLocation();
 
+  const isHomepage = pathname === "/";
+
+  const gridHeaderTitle = getGridHeaderTitle({ projectsFilter });
   // set of projects to render based on the users chosen filter
-  const projectsToRender = getFilteredProjects({ projectsFilter });
+  let projectsToRender = getFilteredProjects({ projectsFilter });
+
+  if (!projectsFilter) {
+    projectsToRender = filter(
+      projects,
+      (project) => !project.isFeaturedProject
+    );
+  }
 
   return (
     <div className="p-project-grid__container">
+      {gridHeaderTitle && <h3>{gridHeaderTitle} Projects</h3>}
       <Masonry
         breakpointCols={BREAKPOINT_COLUMNS_OBJ}
         className="p-project-grid"
