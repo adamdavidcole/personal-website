@@ -10,7 +10,7 @@ import projects from "../data/projects.json";
 
 function RenderReelVideo() {
   return (
-    <div className="p-featured_projects__demo_reel_container">
+    <div className="p-reel__container">
       <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
         <iframe
           title="demo_reel"
