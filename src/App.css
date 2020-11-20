@@ -314,9 +314,53 @@ DEMO REEL
   width: 100%;
 }
 
+.p-project__description h3,
+.p-project__description h4,
+.p-project__description p {
+  max-width: 600px;
+  margin-left: calc((100% - 600px) / 2);
+}
+
 .p-project__description {
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-project__description h3 {
+  margin-top: 45px;
+  margin-bottom: -5px;
+}
+
+.p-project__description h4 {
+  margin-top: 15px;
+  margin-bottom: -10px;
+  text-transform: uppercase;
+}
+
+.p-project__description p + h4 {
+  margin-top: 30px;
+}
+
+.p-custom-project__image_container {
+  display: flex;
   max-width: 750px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 45px 15px;
+}
+
+.p-custom-project__image_container img {
+  max-width: 100%;
+  object-fit: contain;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.p-custom-project__image_caption {
+  margin-top: 15px;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
 }
 
 .example-enter {

@@ -1,4 +1,4 @@
-import PersonalWebsite from "./personal-website";
+import PersonalWebsite from "./custom-project-personal-website";
 
 const CUSTOM_DESCRIPTIONS = {
   "personal-website": PersonalWebsite,

@@ -44,8 +44,9 @@
     "id": "personal-website",
     "name": "Personal Website",
     "category": "code",
-    "thubmnail": "/img/personal-website/thumbnail.png",
+    "thubmnail": "/img/personal-website/thumbnail2.png",
     "images": [
+      "/img/personal-website/responsive-site-design.gif",
       "/img/personal-website/image1.png",
       "/img/personal-website/image2.png"
     ],

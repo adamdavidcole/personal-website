@@ -1,4 +1,4 @@
-import { filter, find, findIndex, map } from "lodash";
+import { filter, find, findIndex, map, partition, concat } from "lodash";
 
 import projectsData from "../data/projects.json";
 import getCustomProjectDescription from "../data/ge-custom-project-description";
@@ -39,7 +39,18 @@ export function getAdjacentProjectUrl({
   projectsFilter,
   getNext = true,
 }) {
-  const filteredProjects = getFilteredProjects({ projectsFilter });
+  let filteredProjects = getFilteredProjects({ projectsFilter });
+
+  if (!projectsFilter) {
+    // move featured projects to the front to match display order
+    const [featuredProjects, nonFeaturedProjects] = partition(
+      filteredProjects,
+      (project) => project.isFeaturedProject
+    );
+
+    filteredProjects = concat(featuredProjects, nonFeaturedProjects);
+  }
+
   const indexOfSelectedProject = findIndex(
     filteredProjects,
     (project) => project.id === projectId
