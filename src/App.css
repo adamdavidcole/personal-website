@@ -34,10 +34,13 @@ a {
 
 .p-page-loader__image_container {
   height: 350px;
+  padding: 15px;
 }
 
 .p-page-loader__image_container img {
   height: 100%;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 /*

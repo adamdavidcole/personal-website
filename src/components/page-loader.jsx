@@ -18,7 +18,6 @@ export default function PageLoader() {
   useEffect(() => {
     toggleScroll(false);
 
-    console.log("page-load", tightBrandstamp);
     const img = new Image();
     img.src = tightBrandstamp;
     img.onload = () => {
@@ -59,8 +58,16 @@ export default function PageLoader() {
   return (
     <div className={className}>
       <div className="p-page-loader__image_container">
-        <img id="p-page-loader__img" />
+        <img
+          id="p-page-loader__img"
+          alt="Adam Cole: Digital Media Design page loading"
+        />
       </div>
     </div>
   );
 }
+
+// ensure on refreshes that we reset to the top of the page so the page loader renders correctly
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
