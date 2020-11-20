@@ -17,7 +17,7 @@ const BREAKPOINT_COLUMNS_OBJ = {
 };
 
 function getGridHeaderTitle({ projectsFilter }) {
-  if (!projectsFilter) return "All";
+  if (!projectsFilter) return "More";
 
   if (projectsFilter === "code") return "Code";
   if (projectsFilter === "film-animation") return "Film & Animation";

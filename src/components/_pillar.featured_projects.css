@@ -14,9 +14,22 @@
   margin-right: 30px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
+  .p-featured_projects__container {
+    flex-wrap: wrap;
+  }
+
   .p-featured_projects {
     margin: 30px 15px 30px 15px;
+  }
+
+  .p-featured_projects__item {
+    width: calc(50% - 15px);
+    margin-bottom: 30px;
+  }
+
+  .p-featured_projects__item:nth-child(even) {
+    margin-right: 0;
   }
 }
 

@@ -48,7 +48,8 @@
     "images": [
       "/img/personal-website/image1.png",
       "/img/personal-website/image2.png"
-    ]
+    ],
+    "isFeaturedProject": true
   },
   {
     "id": "ilux",
