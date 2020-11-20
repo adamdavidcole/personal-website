@@ -1,12 +1,12 @@
 import React from "react";
 import { useParams, useLocation } from "react-router-dom";
 
-import { getSelectedProjectById } from "../utility";
+import { getSelectedProjectById, getProjectData } from "../utility";
 
 import ProjectGrid from "./project-grid";
 import ProjectContainer from "./project/project-container";
 import FeaturedProjects from "./featured-projects";
-import projects from "../data/projects.json";
+import ProfessionalLinks from "./professional-links";
 
 function RenderReelVideo() {
   return (
@@ -32,6 +32,10 @@ function RenderReelVideo() {
 }
 
 export default function Home() {
+  const projects = getProjectData();
+
+  console.log("projects", projects);
+
   const { projectId, projectsFilter } = useParams();
   const { pathname } = useLocation();
 
@@ -44,6 +48,7 @@ export default function Home() {
       <ProjectContainer project={selectedProject} />
       {!projectsFilter && <FeaturedProjects projects={projects} />}
       <ProjectGrid projects={projects} />
+      <ProfessionalLinks />
     </div>
   );
 }

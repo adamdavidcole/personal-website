@@ -1,7 +1,11 @@
 import React from "react";
 
 export default function ProjectDescription({ project }) {
-  const { description } = project;
+  const { description, customDescription } = project;
+
+  console.log("project", project);
+
+  if (customDescription) return React.createElement(customDescription);
 
   return (
     <div className="p-project__description">

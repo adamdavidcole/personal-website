@@ -41,6 +41,16 @@
     "images": ["/img/ikea-warehouse/image1.png"]
   },
   {
+    "id": "personal-website",
+    "name": "Personal Website",
+    "category": "code",
+    "thubmnail": "/img/personal-website/thumbnail.png",
+    "images": [
+      "/img/personal-website/image1.png",
+      "/img/personal-website/image2.png"
+    ]
+  },
+  {
     "id": "ilux",
     "name": "ilux",
     "category": "code",
