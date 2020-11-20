@@ -64,13 +64,17 @@ function ProjectContainer({ project, history }) {
     }
 
     if (project) {
-      requestAnimationFrame(() => {
-        window.scrollTo({
-          top: projectRef.current.offsetTop - 30,
-          left: 0,
-          behavior: "smooth",
+      setTimeout(() => {
+        requestAnimationFrame(() => {
+          console.log("scrolltoTo?");
+
+          window.scrollTo({
+            top: projectRef.current.offsetTop - 30,
+            left: 0,
+            behavior: "smooth",
+          });
         });
-      });
+      }, 50);
     }
 
     prevProjectIdRef.current = project?.id;

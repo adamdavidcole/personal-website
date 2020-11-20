@@ -40,7 +40,13 @@ export default function ProjectContents({ project, onProjectClose }) {
             Next project
           </Link>
           <span className="p-project__navigation_button_spacer">￨</span>
-          <span onClick={onProjectClose}>𝘅</span>
+          <a
+            href="#"
+            className="p-project__navigation_button--close"
+            onClick={onProjectClose}
+          >
+            𝘅
+          </a>
         </div>
       </div>
       <div className="p-project__header">

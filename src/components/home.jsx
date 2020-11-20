@@ -6,7 +6,7 @@ import { getSelectedProjectById, getProjectData } from "../utility";
 import ProjectGrid from "./project-grid";
 import ProjectContainer from "./project/project-container";
 import FeaturedProjects from "./featured-projects";
-import ProfessionalLinks from "./professional-links";
+import Footer from "./footer";
 
 function RenderReelVideo() {
   return (
@@ -48,7 +48,7 @@ export default function Home() {
       <ProjectContainer project={selectedProject} />
       {!projectsFilter && <FeaturedProjects projects={projects} />}
       <ProjectGrid projects={projects} />
-      <ProfessionalLinks />
+      <Footer />
     </div>
   );
 }

@@ -18,10 +18,10 @@ export default function Header() {
           </div>
           <Link to="/">
             <div className="p-header__title--dmd">
-              <div className="p-header__title_text--dmd">Adam Cole</div>
-              <div className="p-header__subtitle_text--dmd">
+              <h1 className="p-header__title_text--dmd">Adam Cole</h1>
+              <h2 className="p-header__subtitle_text--dmd">
                 Digital Media Design
-              </div>
+              </h2>
             </div>
           </Link>
         </div>
