@@ -34,8 +34,6 @@ function RenderReelVideo() {
 export default function Home() {
   const projects = getProjectData();
 
-  console.log("projects", projects);
-
   const { projectId, projectsFilter } = useParams();
   const { pathname } = useLocation();
 

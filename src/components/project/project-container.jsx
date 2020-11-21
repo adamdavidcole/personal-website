@@ -4,10 +4,12 @@ import smoothscroll from "smoothscroll-polyfill";
 
 import ProjectContents from "./project-contents";
 
-function animateOut({ projectRef }) {
-  // get element height
+function animateOut({ projectRef, setIsAnimating }) {
+  setIsAnimating(true);
+
+  // get element height or window height (whichever is smaller to prevent animating out of frame)
   const element = projectRef.current;
-  const elementHeight = element.scrollHeight;
+  const elementHeight = Math.min(element.scrollHeight, window.innerHeight);
 
   // store element transition state
   var elementTransition = element.style.transition;
@@ -18,20 +20,23 @@ function animateOut({ projectRef }) {
     // so that we can animate from that value to 0
     element.style.height = `${elementHeight}px`;
     element.style.transition = elementTransition;
-
     requestAnimationFrame(() => {
       // transition height to 0
       element.style.height = "0px";
+      setIsAnimating(false);
     });
   });
 }
 
-function animateIn({ projectRef }) {
+function animateIn({ projectRef, setIsAnimating }) {
+  setIsAnimating(true);
+
   // get element height
   const element = projectRef.current;
 
+  // get element height or window height (whichever is smaller to prevent animating out of frame)
   element.style.height = `auto`;
-  const elementHeight = element.scrollHeight;
+  const elementHeight = Math.min(element.scrollHeight, window.innerHeight);
 
   element.style.height = `0px`;
 
@@ -40,6 +45,7 @@ function animateIn({ projectRef }) {
 
     setTimeout(() => {
       element.style.height = "auto";
+      setIsAnimating(false);
     }, 250);
   });
 }
@@ -51,6 +57,8 @@ function ProjectContainer({ project, history }) {
 
   const projectRef = useRef(null);
   const prevProjectIdRef = useRef();
+  const [isAnimating, setIsAnimating] = useState(false);
+
   const subroute = projectsFilter || "projects";
 
   useEffect(() => {
@@ -59,20 +67,20 @@ function ProjectContainer({ project, history }) {
     if (!prevProjectIdRef.current) {
       // animate in project contents if not currently displaying project
       requestAnimationFrame(() => {
-        animateIn({ projectRef });
+        animateIn({ projectRef, setIsAnimating });
       });
     }
 
-    if (project) {
+    if (project && !isAnimating) {
       setTimeout(() => {
         requestAnimationFrame(() => {
           window.scrollTo({
-            top: projectRef.current.offsetTop - 120,
+            top: projectRef.current.offsetTop - 30,
             left: 0,
             behavior: "smooth",
           });
         });
-      }, 50);
+      }, 0);
     }
 
     prevProjectIdRef.current = project?.id;
@@ -80,7 +88,7 @@ function ProjectContainer({ project, history }) {
 
   function onProjectClose() {
     if (projectRef.current) {
-      animateOut({ projectRef });
+      animateOut({ projectRef, setIsAnimating });
     }
 
     window.scrollTo({

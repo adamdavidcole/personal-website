@@ -422,6 +422,16 @@ DEMO REEL
   transition: max-height 250ms ease-out;
 }
 
+/* keep description text from overflowing at small widths */
+@media (max-width: 700px) {
+  .p-project__description h3,
+  .p-project__description h4,
+  .p-project__description p {
+    max-width: unset;
+    margin-left: unset;
+  }
+}
+
 /* stack navigator links at smallest widths */
 @media (max-width: 500px) {
   .p-header__top_bar {
