@@ -25,13 +25,22 @@
     "id": "american-takeout",
     "name": "American Takeout",
     "category": "art",
-    "thubmnail": "/img/american-takeout/thumbnail.jpg"
+    "thubmnail": "/img/american-takeout/thumbnail.jpg",
+    "images": [
+      "/img/american-takeout/image1.jpg",
+      "/img/american-takeout/image2.jpg",
+      "/img/american-takeout/image3.jpg"
+    ]
   },
   {
     "id": "iaas-preschool",
     "name": "International Academy of Arts & Sciences",
     "category": "code",
-    "thubmnail": "/img/iaas-preschool/thumbnail.jpg"
+    "thubmnail": "/img/iaas-preschool/thumbnail.jpg",
+    "images": [
+      "/img/iaas-preschool/image1.png",
+      "/img/iaas-preschool/image2.png"
+    ]
   },
   {
     "id": "ikea-warehouse",
@@ -87,7 +96,8 @@
     "id": "processing",
     "name": "Processing",
     "category": "art",
-    "thubmnail": "/img/processing/thumbnail.png"
+    "thubmnail": "/img/processing/thumbnail.png",
+    "images": ["/img/processing/image1.jpg", "/img/processing/image2.jpg"]
   },
   {
     "id": "she-doesnt-know",

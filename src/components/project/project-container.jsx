@@ -66,10 +66,8 @@ function ProjectContainer({ project, history }) {
     if (project) {
       setTimeout(() => {
         requestAnimationFrame(() => {
-          console.log("scrolltoTo?");
-
           window.scrollTo({
-            top: projectRef.current.offsetTop - 30,
+            top: projectRef.current.offsetTop - 120,
             left: 0,
             behavior: "smooth",
           });
