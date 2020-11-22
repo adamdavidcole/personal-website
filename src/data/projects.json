@@ -4,6 +4,13 @@
     "name": "Frotend Engineering @ Slack",
     "category": "code",
     "thubmnail": "/img/slack-frontend-engineering/thumbnail2.png",
+    "images": [
+      "/img/slack-frontend-engineering/image1.gif",
+      "/img/slack-frontend-engineering/image2.gif",
+      "/img/slack-frontend-engineering/image3.gif",
+      "/img/slack-frontend-engineering/image4.png"
+    ],
+    "description": "Description coming soon!...",
     "isFeaturedProject": true
   },
   {
