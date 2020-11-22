@@ -324,6 +324,7 @@ DEMO REEL
 
 .p-project__images img {
   max-height: 500px;
+  max-width: 100%;
 }
 
 .p-project__image img {
@@ -346,6 +347,7 @@ DEMO REEL
 }
 
 .p-project__description {
+  width: 100%;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -371,6 +373,7 @@ DEMO REEL
   max-width: 750px;
   flex-wrap: wrap;
   justify-content: center;
+  align-self: center;
   margin: 45px 15px;
 }
 

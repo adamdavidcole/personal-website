@@ -36,15 +36,11 @@
     "description": "American Takeout is a physical sculpture and light installation using an interplay of American and Chinese symbols. <br/><br/> In the United States, the paper takeout box is widely associated with Chinese culture and cuisine, but I was interested to find out that these takeout boxes are an entirely American invention. In fact, they are rarely found in China at all. This discovery made me think about the ways cultural symbols arise and are coopted in the United States. <br/><br/>For the sculpture, I bought three Chinese take out boxes from my local Chinese restaurant. I used a laser cutter to make “flag-star” shaped holes in each box and installed them with red, white, and blue lights to aggressively radiate the colors and shapes of the American flag.<br/><br/>The mix of these familiar objects, colors and shapes is disorienting and calls into question whether the intertwining histories of these symbols is an example of America’s promise of multiculturalism or a reflection of this country’s ability to appropriate and peddle cultural symbols for capitalistic gain."
   },
   {
-    "id": "iaas-preschool",
-    "name": "International Academy of Arts & Sciences",
+    "id": "virtual_gaga",
+    "name": "Virtual Gaga Game",
     "category": "code",
-    "thubmnail": "/img/iaas-preschool/thumbnail.jpg",
-    "images": [
-      "/img/iaas-preschool/image1.png",
-      "/img/iaas-preschool/image2.png"
-    ],
-    "description": "Designed and built a website for IAAS (International Academy of Arts and Scriences), a bilungual preschool in New Jersey. "
+    "thubmnail": "/img/virtual_gaga/thumbnail.png",
+    "images": ["/img/virtual_gaga/image1.png"]
   },
   {
     "id": "ikea-warehouse",
@@ -171,10 +167,14 @@
     "description": "<b>Three____</b> is a 3D animation created with Autodesk Maya that tells the story of a forbidden love between a triangle and rectangle. <br/><br/>This project was created as part of a summer class in 3D animation at the School of Visual Arts in New York City and is one of my earliest 3D projects. The film was an exciting lesson in how limitless animation could be as a medium. An idea becomes script; a script becomes a storyboard; and almost miraculously, a storyboard becomes a film. Many of the themes or techniques explored here continued to be developed in future projects such as the use of primitive shapes or objects as central characters and a deep connection between narrative and sound."
   },
   {
-    "id": "virtual_gaga",
-    "name": "Virtual Gaga Game",
+    "id": "iaas-preschool",
+    "name": "International Academy of Arts & Sciences",
     "category": "code",
-    "thubmnail": "/img/virtual_gaga/thumbnail.png",
-    "images": ["/img/virtual_gaga/image1.png"]
+    "thubmnail": "/img/iaas-preschool/thumbnail.jpg",
+    "images": [
+      "/img/iaas-preschool/image1.png",
+      "/img/iaas-preschool/image2.png"
+    ],
+    "description": "Designed and built a website for IAAS (International Academy of Arts and Scriences), a bilungual preschool in New Jersey. "
   }
 ]
