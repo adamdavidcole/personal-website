@@ -15,7 +15,7 @@ function App() {
 
   return (
     <Router>
-      {/* <PageLoader /> */}
+      <PageLoader />
       <Header />
       <Switch>
         <Route path="/about">
