@@ -273,6 +273,14 @@ DEMO REEL
   margin: 5px;
 }
 
+.p-project__navigation_button--close {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
 .p-project .swiper-button-prev,
 .p-project .swiper-button-next {
   color: #767575;
@@ -319,7 +327,8 @@ DEMO REEL
 }
 
 .p-project__image img {
-  max-height: 700px;
+  max-width: 600px;
+  width: 100%;
 }
 
 .p-project__embed_container {
@@ -365,10 +374,12 @@ DEMO REEL
   margin: 45px 15px;
 }
 
-.p-custom-project__image_container img {
+.p-custom-project__image_container img,
+.p-custom-project__image_container video {
   max-width: 100%;
   object-fit: contain;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  align-self: center;
 }
 
 .p-custom-project__image_caption {
@@ -548,4 +559,11 @@ DEMO REEL
 
 .p-footer__sign_off_heart {
   margin: 0 3px;
+}
+
+/*
+ * Resume
+ */
+.p-resume__file_container {
+  margin: 60px;
 }

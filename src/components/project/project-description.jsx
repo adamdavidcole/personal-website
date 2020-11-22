@@ -5,7 +5,11 @@ export default function ProjectDescription({ project }) {
 
   return (
     <div className="p-project__description">
-      {customDescription ? React.createElement(customDescription) : description}
+      {customDescription ? (
+        React.createElement(customDescription)
+      ) : (
+        <p dangerouslySetInnerHTML={{ __html: description }} />
+      )}
     </div>
   );
 }

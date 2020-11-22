@@ -11,7 +11,8 @@
     "name": "Day 42",
     "category": "film-animation",
     "thubmnail": "/img/day-42/thumbnail.png",
-    "vimeoEmbed": "https://player.vimeo.com/video/422586682?portrait=0"
+    "vimeoEmbed": "https://player.vimeo.com/video/422586682?portrait=0",
+    "description": "This charming stop motion animation tells the story of a clementine down on his luck who finds a brief escape from the reality of the pandemic. <br/><br/>This personal project was born out of a certain creative frustration during the early months of the Covid-19 quarantine. In that time, I was revisiting classic films including American musicals from the early 20th century. I was particularly drawn to the mind-bending choreography of Busby Berkeley who was able to elevate dancing into psychedelic abstract expressions. <br/><br/>Stuck at home, I wondered if I could recreate that experience with simple objects around the house and thought a clementine could be a perfect way to mimic Berkeley’s elaborate kaleidoscopic productions. I also wanted to capture the sense of escape these films provided me in these trying times. While the movie has a playful atmosphere, it is not lost on the viewer that the pandemic and our collective frustrations did not merely end after 42 days. We wonder to what degree we can escape our current reality by looking to the past and question the way we tinge the recent past with a certain undeserved nostalgia."
   },
   {
     "id": "cherry",
@@ -19,6 +20,7 @@
     "category": "film-animation",
     "thubmnail": "/img/cherry/thumbnail.png",
     "vimeoEmbed": "https://player.vimeo.com/video/115048712",
+    "description": "Cherry is a 3D animation made with Autodesk Maya. Straddling the line between digital music video and visual art, the film expresses the ethos of the melody and rhythm of the track with purely abstract forms using color, shape, and motion. <br/><br/> The ultimate goal was to approach something seemingly organic using a purely digital medium. ",
     "isFeaturedProject": true
   },
   {
@@ -30,7 +32,8 @@
       "/img/american-takeout/image1.jpg",
       "/img/american-takeout/image2.jpg",
       "/img/american-takeout/image3.jpg"
-    ]
+    ],
+    "description": "American Takeout is a physical sculpture and light installation using an interplay of American and Chinese symbols. <br/><br/> In the United States, the paper takeout box is widely associated with Chinese culture and cuisine, but I was interested to find out that these takeout boxes are an entirely American invention. In fact, they are rarely found in China at all. This discovery made me think about the ways cultural symbols arise and are coopted in the United States. <br/><br/>For the sculpture, I bought three Chinese take out boxes from my local Chinese restaurant. I used a laser cutter to make “flag-star” shaped holes in each box and installed them with red, white, and blue lights to aggressively radiate the colors and shapes of the American flag.<br/><br/>The mix of these familiar objects, colors and shapes is disorienting and calls into question whether the intertwining histories of these symbols is an example of America’s promise of multiculturalism or a reflection of this country’s ability to appropriate and peddle cultural symbols for capitalistic gain."
   },
   {
     "id": "iaas-preschool",
@@ -40,14 +43,16 @@
     "images": [
       "/img/iaas-preschool/image1.png",
       "/img/iaas-preschool/image2.png"
-    ]
+    ],
+    "description": "Designed and built a website for IAAS (International Academy of Arts and Scriences), a bilungual preschool in New Jersey. "
   },
   {
     "id": "ikea-warehouse",
     "name": "3D Modeling: Warehouse",
     "category": "art",
     "thubmnail": "/img/ikea-warehouse/thumbnail.png",
-    "images": ["/img/ikea-warehouse/image1.png"]
+    "images": ["/img/ikea-warehouse/image1.png"],
+    "description": "This work is a 3D modeling environment project made with Autodesk Maya. The assignment was to create a space with a certain atmosphere. At the time, I was thinking about commerce and identity. I took as my example the experience of shopping at Ikea. At Ikea, we are guided through show rooms and select the objects that match our personal aesthetic or personality. The final stop, however, is the warehouse where we select our “personal” selections from a stack of hundreds of identical objects.<br/><br/>The goal of shopping today is to construct a particular identity, but behind any modern shopping experience is a warehouse where endless replicas of our objects are awaiting purchase by other individuals. The front of the shop is warm, inviting, familiar. But this 3D sculpture attempts to capture what is behind it: the vast cold space of infinite replicas, continuing infinitely in every direction waiting indefinitely to be pulled off the shelf for the next willing consumer.<br/><br/>Since this was made, the rise of Amazon and online shopping has made “the warehouse” a more overt symbol of modern capitalism. Physical shops in our communities are being replaced entirely by massive warehouses completely invisible to us. I would like to continue exploring the symbolic nature of the warehouse in juxtaposition to the store in future works."
   },
   {
     "id": "personal-website",
@@ -65,7 +70,13 @@
     "id": "ilux",
     "name": "ilux",
     "category": "code",
-    "thubmnail": "/img/ilux/thumbnail.png"
+    "thubmnail": "/img/ilux/thumbnail.png",
+    "images": [
+      "/img/ilux/image1.jpg",
+      "/img/ilux/image2.png",
+      "/img/ilux/image3.png"
+    ],
+    "description": "Designed and built an ecommerce storefront for iLux, a highend women's legwear fashion company in New York, using BigCommerce."
   },
   {
     "id": "monte-carlo-ray-tracing",
@@ -77,13 +88,21 @@
       "/img/monte-carlo-ray-tracing/image2.png",
       "/img/monte-carlo-ray-tracing/image3.png"
     ],
-    "isFeaturedProject": true
+    "isFeaturedProject": true,
+    "description": "As part of an advanced computer graphics course, we implemented a ray tracer using the Monte Carlo method using C++ and OpenGL. This approach produces more photorealistic results as compared to a single ray per pixel approach. The result of the the Monte Carlo method is more indirect illumination achieved by averaging the result of random samples of rays bouncing off a given point. The above rendered images show the improved effect of adding additional samples which takes additional computing time but produces cleaner results."
   },
   {
     "id": "motor-skills-rehab",
     "name": "Motor Skills Rehab Game",
     "category": "code",
-    "thubmnail": "/img/motor-skills-rehab/thumbnail.png"
+    "thubmnail": "/img/motor-skills-rehab/thumbnail.png",
+    "description": "Irish Frenzy is an open source game meant to assist stroke patients recover motor function in their physical therapy. The idea behind it was that patients would be more willing to actively participate in their physical training if a certain degree of play was introduced to the workouts. In addition, the game allows the physician and patient to track progress and increase the strenuousness of the physical activity as the patient improves. <br/><br/> The game is relatively simple, containing a character collecting coins, avoiding various obstacles and collecting power ups. The basic mechanics of the gameplay require the user to move back in forth to “win”. The project was built using the Android platform and has a public interface to allow integrations with hardware devices like hand or foot levers. The goal is to encourage the user to use very basic physical movements to play the game, which would be beneficial to stroke patients who are rehabilitating their motor functions. <br/><br/> This was a prototype developed for a university course in software development in conjunction with the University of Pennsylvania medical research department.",
+    "images": [
+      "/img/motor-skills-rehab/image1.png",
+      "/img/motor-skills-rehab/image2.png",
+      "/img/motor-skills-rehab/image3.png",
+      "/img/motor-skills-rehab/image4.png"
+    ]
   },
   {
     "id": "perdue",
@@ -104,13 +123,30 @@
     "name": "She Doesn't Know",
     "category": "art",
     "thubmnail": "/img/she-doesnt-know/thumbnail.png",
-    "vimeoEmbed": "https://player.vimeo.com/video/69353912?portrait=0"
+    "vimeoEmbed": "https://player.vimeo.com/video/69353912?portrait=0",
+    "description": "This film recreates an experience very common for the millennial generation: clicking through a stranger’s photos on the internet. Most of us have become fairly numb to the practice, feeling relatively safe peering into the lives of others anonymously. In this piece, I attempt to make the viewer once again uncomfortable with a certain type of internet voyeurism that has become second nature thanks to Facebook, Instagram, and Twitter. Hopefully the viewer leaves asking questions about internet privacy, contemporary digital culture, and where the responsibility lies when it comes to protecting our collective “private data” that might not be so private after all."
   },
   {
     "id": "subplot-branding",
     "name": "Subplot Brand Guidelines",
     "category": "art",
-    "thubmnail": "/img/subplot-branding/thumbnail.jpg"
+    "thubmnail": "/img/subplot-branding/thumbnail.jpg",
+    "images": [
+      "/img/subplot-branding/image1.jpg",
+      "/img/subplot-branding/image2.jpg",
+      "/img/subplot-branding/image3.jpg",
+      "/img/subplot-branding/image4.jpg",
+      "/img/subplot-branding/image5.jpg",
+      "/img/subplot-branding/image6.jpg",
+      "/img/subplot-branding/image7.jpg",
+      "/img/subplot-branding/image8.jpg",
+      "/img/subplot-branding/image9.jpg",
+      "/img/subplot-branding/image10.jpg",
+      "/img/subplot-branding/image11.jpg",
+      "/img/subplot-branding/image12.jpg",
+      "/img/subplot-branding/image13.jpg"
+    ],
+    "description": "For this project, a team of designers and I constructed a personal brand identity for a business that was a bookstore by day and community bar by night. We developed the logo, brand guidelines, and visual identity of the company, as seen in their business cards, stationary, menus and more. <br/><br/>The various artifacts were constructed in Adobe Illustrator and compiled into a comprehensive graphics standards manual."
   },
   {
     "id": "the-artist-is-not-present",
@@ -123,19 +159,22 @@
       "/img/the-artist-is-not-present/image3.png",
       "/img/the-artist-is-not-present/image4.png",
       "/img/the-artist-is-not-present/image5.jpg"
-    ]
+    ],
+    "description": "This piece was an installation art set up on my university’s campus. <br/><br/>Walking into the grand entrance of Penn’s English department, one is welcomed by an 8 foot portrait of Shakespeare. For my project, I decided to raise questions of authority. Seemingly, the English department seems to be saying, “admire Shakespeare, he is the ultimate author of the English language.” So in response I photoshopped my face onto a generic portrait of a 1920′s intellectual, printed it out to the same 8ft by 7ft dimensions, and hung it over Shakespeare’s face. Above the portrait read a plaque saying “This is an Acclaimed Author” with a subscript which said, “Sponsored by the University of Pennsylvania’s English Department and Fine Arts Department”. The poster remained up for two months before anyone questioned its legitimacy.<br/><br/>This work predates phrases like “fake news” and “deep fakes”, but the questions at the heart of it remain the same: in what ways are authority and truth linked and how much can we trust what we see with our eyes?"
   },
   {
     "id": "three____",
     "name": "Three____",
     "category": "film-animation",
     "thubmnail": "/img/three____/thumbnail.png",
-    "vimeoEmbed": "https://player.vimeo.com/video/27101594?portrait=0"
+    "vimeoEmbed": "https://player.vimeo.com/video/27101594?portrait=0",
+    "description": "<b>Three____</b> is a 3D animation created with Autodesk Maya that tells the story of a forbidden love between a triangle and rectangle. <br/><br/>This project was created as part of a summer class in 3D animation at the School of Visual Arts in New York City and is one of my earliest 3D projects. The film was an exciting lesson in how limitless animation could be as a medium. An idea becomes script; a script becomes a storyboard; and almost miraculously, a storyboard becomes a film. Many of the themes or techniques explored here continued to be developed in future projects such as the use of primitive shapes or objects as central characters and a deep connection between narrative and sound."
   },
   {
     "id": "virtual_gaga",
     "name": "Virtual Gaga Game",
     "category": "code",
-    "thubmnail": "/img/virtual_gaga/thumbnail.png"
+    "thubmnail": "/img/virtual_gaga/thumbnail.png",
+    "images": ["/img/virtual_gaga/image1.png"]
   }
 ]

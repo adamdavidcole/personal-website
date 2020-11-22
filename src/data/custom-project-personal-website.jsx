@@ -3,6 +3,13 @@ import React from "react";
 function PersonalWebsiteProject() {
   return (
     <>
+      <p>
+        <b>Source code:</b>{" "}
+        <a href="https://github.com/adamdavidcole/personal-website">
+          https://github.com/adamdavidcole/personal-website
+        </a>
+      </p>
+
       <h3>The Mission</h3>
       <p>
         I needed a home for my digital portfolio, and as a frontend developer,
