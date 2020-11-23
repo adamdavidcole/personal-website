@@ -9,7 +9,7 @@ import "swiper/components/pagination/pagination.scss";
 
 SwiperCore.use([Navigation, Pagination, Thumbs]);
 
-export default function ProjectImageSlider({ project }) {
+export default function ProjectImageSlider({ project, imagesArray }) {
   const { images } = project;
 
   const imageSliderRef = useRef(null);

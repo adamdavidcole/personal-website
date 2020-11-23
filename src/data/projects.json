@@ -4,12 +4,6 @@
     "name": "Frotend Engineering @ Slack",
     "category": "code",
     "thubmnail": "/img/slack-frontend-engineering/thumbnail2.png",
-    "images": [
-      "/img/slack-frontend-engineering/image1.gif",
-      "/img/slack-frontend-engineering/image2.gif",
-      "/img/slack-frontend-engineering/image3.gif",
-      "/img/slack-frontend-engineering/image4.png"
-    ],
     "description": "Description coming soon!...",
     "isFeaturedProject": true
   },
@@ -70,6 +64,13 @@
     "isFeaturedProject": true
   },
   {
+    "id": "bertha",
+    "name": "Bertha Storyboard",
+    "category": "film-animation",
+    "thubmnail": "/img/bertha/thumbnail.png",
+    "description": "Description coming soon!"
+  },
+  {
     "id": "ilux",
     "name": "ilux",
     "category": "code",
@@ -79,7 +80,8 @@
       "/img/ilux/image2.png",
       "/img/ilux/image3.png"
     ],
-    "description": "Designed and built an ecommerce storefront for iLux, a highend women's legwear fashion company in New York, using BigCommerce."
+    "description": "Designed and built an ecommerce storefront for iLux, a highend women's legwear fashion company in New York, using BigCommerce.",
+    "isHidden": true
   },
   {
     "id": "monte-carlo-ray-tracing",
@@ -96,7 +98,7 @@
   },
   {
     "id": "motor-skills-rehab",
-    "name": "Motor Skills Rehab Game",
+    "name": "Stroke Motor Skills Rehab Game",
     "category": "code",
     "thubmnail": "/img/motor-skills-rehab/thumbnail.png",
     "description": "Irish Frenzy is an open source game meant to assist stroke patients recover motor function in their physical therapy. The idea behind it was that patients would be more willing to actively participate in their physical training if a certain degree of play was introduced to the workouts. In addition, the game allows the physician and patient to track progress and increase the strenuousness of the physical activity as the patient improves. <br/><br/> The game is relatively simple, containing a character collecting coins, avoiding various obstacles and collecting power ups. The basic mechanics of the gameplay require the user to move back in forth to “win”. The project was built using the Android platform and has a public interface to allow integrations with hardware devices like hand or foot levers. The goal is to encourage the user to use very basic physical movements to play the game, which would be beneficial to stroke patients who are rehabilitating their motor functions. <br/><br/> This was a prototype developed for a university course in software development in conjunction with the University of Pennsylvania medical research department.",
@@ -153,7 +155,7 @@
   },
   {
     "id": "the-artist-is-not-present",
-    "name": "The Artist is Not Present",
+    "name": "This is an Acclaimed Author",
     "category": "art",
     "thubmnail": "/img/the-artist-is-not-present/thumbnail.png",
     "images": [
@@ -182,6 +184,7 @@
       "/img/iaas-preschool/image1.png",
       "/img/iaas-preschool/image2.png"
     ],
-    "description": "Designed and built a website for IAAS (International Academy of Arts and Scriences), a bilungual preschool in New Jersey. "
+    "description": "Designed and built a website for IAAS (International Academy of Arts and Scriences), a bilungual preschool in New Jersey. ",
+    "isHidden": true
   }
 ]

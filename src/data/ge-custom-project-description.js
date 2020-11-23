@@ -1,11 +1,13 @@
-import PersonalWebsite from "./custom-project-personal-website";
-import customProjectPerdue from "./custom-project-perdue";
-import customProjectVirtualGaga from "./custom-project-virtual-gaga";
+import CustomProjectPersonalWebsite from "./custom-project-personal-website";
+import CustomProjectPerdue from "./custom-project-perdue";
+import CustomProjectVirtualGaga from "./custom-project-virtual-gaga";
+import CustomProjectSlackEngineering from "./custom-project-slack-engineering";
 
 const CUSTOM_DESCRIPTIONS = {
-  "personal-website": PersonalWebsite,
-  perdue: customProjectPerdue,
-  virtual_gaga: customProjectVirtualGaga,
+  "personal-website": CustomProjectPersonalWebsite,
+  perdue: CustomProjectPerdue,
+  virtual_gaga: CustomProjectVirtualGaga,
+  "slack-frontend-engineering": CustomProjectSlackEngineering,
 };
 
 function getCustomProjectDescription({ projectId }) {

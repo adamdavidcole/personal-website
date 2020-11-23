@@ -4,7 +4,9 @@ import projectsData from "../data/projects.json";
 import getCustomProjectDescription from "../data/ge-custom-project-description";
 
 export function getProjectData() {
-  return map(projectsData, (project) => {
+  const filteredProjects = filter(projectsData, (project) => !project.isHidden);
+
+  return map(filteredProjects, (project) => {
     const customDescription = getCustomProjectDescription({
       projectId: project.id,
     });
