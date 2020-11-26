@@ -69,10 +69,12 @@ export default function PageLoader() {
   return (
     <div className={className}>
       <div className="p-page-loader__image_container">
-        <img
-          id="p-page-loader__img"
-          alt="Adam Cole: Digital Media Design page loading"
-        />
+        {imageLoaded && (
+          <img
+            id="p-page-loader__img"
+            alt="Adam Cole: Digital Media Design page loading"
+          />
+        )}
       </div>
     </div>
   );
