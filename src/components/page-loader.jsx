@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classNames from "classnames";
+import { useLocation } from "react-router-dom";
 
 import animatedBrandstamp from "../assets/brandstamp-minified.gif";
 import tightBrandstamp from "../assets/tight-brandstamp.gif";
@@ -10,12 +11,18 @@ function toggleScroll(enableScroll) {
 }
 
 export default function PageLoader() {
+  const { pathname } = useLocation();
+
+  const isHomeRoute = pathname === "/";
+
   const [imageLoaded, setImageLoaded] = useState(false);
   const [startFadeOut, setStartFadeOut] = useState(false);
   const [endFadeOut, setEndFadeout] = useState(false);
 
   // preload page load gif
   useEffect(() => {
+    if (!isHomeRoute) return;
+
     toggleScroll(false);
 
     const img = new Image();
@@ -23,15 +30,16 @@ export default function PageLoader() {
     img.onload = () => {
       setImageLoaded(true);
     };
-
-    console.log("image", img);
   }, []);
 
   // on page load, initiate page load animation
   useEffect(() => {
     if (!imageLoaded) return;
 
-    document.getElementById("p-page-loader__img").src = animatedBrandstamp;
+    const imageLoader = document.getElementById("p-page-loader__img");
+    if (!imageLoader) return null;
+
+    imageLoader.src = animatedBrandstamp;
 
     setTimeout(() => {
       setStartFadeOut(true);
@@ -47,6 +55,9 @@ export default function PageLoader() {
       setEndFadeout(true);
     }, 1000);
   }, [startFadeOut]);
+
+  // only show the loading animation when arriving to the home page
+  if (!isHomeRoute) return null;
 
   // if animation has completed to fadeout, don't render anything further
   if (endFadeOut) return null;

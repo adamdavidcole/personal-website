@@ -9,6 +9,8 @@ function animateOut({ projectRef, setIsAnimating }) {
 
   // get element height or window height (whichever is smaller to prevent animating out of frame)
   const element = projectRef.current;
+  if (!element) return;
+
   const elementHeight = Math.min(element.scrollHeight, window.innerHeight);
 
   // store element transition state
@@ -33,6 +35,7 @@ function animateIn({ projectRef, setIsAnimating }) {
 
   // get element height
   const element = projectRef.current;
+  if (!element) return;
 
   // get element height or window height (whichever is smaller to prevent animating out of frame)
   element.style.height = `auto`;

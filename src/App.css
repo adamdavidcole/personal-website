@@ -354,18 +354,25 @@ DEMO REEL
 }
 
 .p-project__description h3 {
-  margin-top: 45px;
+  margin-top: 30px;
   margin-bottom: -5px;
+  text-transform: uppercase;
 }
 
 .p-project__description h4 {
   margin-top: 15px;
   margin-bottom: -10px;
-  text-transform: uppercase;
+  font-size: 18px;
 }
 
 .p-project__description p + h4 {
   margin-top: 30px;
+}
+
+.p-project__description p {
+  margin-top: 18px;
+  margin-bottom: 0;
+  line-height: 23px;
 }
 
 .p-custom-project__image_container {
@@ -377,12 +384,29 @@ DEMO REEL
   margin: 45px 15px;
 }
 
+.p-custom-project__image_container--multi_image {
+  max-width: 100%;
+}
+
+.p-custom-project__image_container--multi_image img:not(:last-child) {
+  margin-right: 15px;
+}
+
+.p-custom-project__multi_image_container {
+  display: flex;
+  width: 100%;
+}
+
 .p-custom-project__image_container img,
 .p-custom-project__image_container video {
   max-width: 100%;
   object-fit: contain;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   align-self: center;
+
+  min-width: 0;
+  width: 100%;
+  height: auto;
 }
 
 .p-custom-project__image_caption {
@@ -443,6 +467,18 @@ DEMO REEL
   .p-project__description p {
     max-width: unset;
     margin-left: unset;
+  }
+}
+
+/* typography fixes at small width */
+@media (max-width: 500px) {
+  .p-project__description h4 {
+    font-size: 15px;
+  }
+
+  .p-project__description p {
+    margin-top: 15px;
+    line-height: 21px;
   }
 }
 

@@ -53,6 +53,20 @@ function CustomProjectSlackEngineering() {
         there including message threading, multi-file upload, rich text
         composition and all things emoji 😜.
       </p>
+      <div className="p-custom-project__image_container">
+        <img
+          src={
+            process.env.PUBLIC_URL +
+            "/img/slack-frontend-engineering/slack-architecture.png"
+          }
+          alt=""
+          style={{ boxShadow: "none" }}
+        />
+        <div className="p-custom-project__image_caption">
+          Basic Slack webapp/client architecture
+        </div>
+      </div>
+
       <h3>The Projects</h3>
       <h4>Threads</h4>
       <p>
@@ -312,6 +326,7 @@ function CustomProjectSlackEngineering() {
                     "/img/slack-frontend-engineering/image4.png"
                   }
                   alt=""
+                  style={{ boxShadow: "none" }}
                 />
                 <div className="p-custom-project__image_caption">
                   Emoji solidarity example
