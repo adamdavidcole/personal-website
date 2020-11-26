@@ -386,6 +386,8 @@ DEMO REEL
 
 .p-custom-project__image_container--multi_image {
   max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .p-custom-project__image_container--multi_image img:not(:last-child) {
@@ -479,6 +481,16 @@ DEMO REEL
   .p-project__description p {
     margin-top: 15px;
     line-height: 21px;
+  }
+
+  /* stack multi-image gallery at small widths*/
+  .p-custom-project__multi_image_container {
+    flex-wrap: wrap;
+  }
+
+  .p-custom-project__image_container--multi_image img:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 15px;
   }
 }
 
