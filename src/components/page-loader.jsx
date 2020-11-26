@@ -21,7 +21,11 @@ export default function PageLoader() {
 
   // preload page load gif
   useEffect(() => {
-    if (!isHomeRoute) return;
+    if (!isHomeRoute) {
+      // if we don't start off on the homepage, skip the page-load animation
+      setEndFadeout(true);
+      return;
+    }
 
     toggleScroll(false);
 
