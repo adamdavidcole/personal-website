@@ -695,12 +695,20 @@ DEMO REEL
 
 @media (max-width: 800px) {
   .p-about__content {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
   .p-about__description {
+    /* hack to prevent extra whitespace at bottom of container */
+    padding-right: 0;
     margin-right: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    flex: initial;
+  }
+
+  .p-about__heashot_containter {
+    flex: initial;
   }
 
   .p-about__heashot_containter img {
