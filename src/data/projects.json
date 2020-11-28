@@ -52,6 +52,7 @@
     "images": ["/img/ikea-warehouse/image1.png"],
     "description": "This work is a 3D modeling environment project made with Autodesk Maya. The assignment was to create a space with a certain atmosphere. At the time, I was thinking about commerce and identity. I took as my example the experience of shopping at Ikea. At Ikea, we are guided through show rooms and select the objects that match our personal aesthetic or personality. The final stop, however, is the warehouse where we select our “personal” selections from a stack of hundreds of identical objects.<br/><br/>The goal of shopping today is to construct a particular identity, but behind any modern shopping experience is a warehouse where endless replicas of our objects are awaiting purchase by other individuals. The front of the shop is warm, inviting, familiar. But this 3D sculpture attempts to capture what is behind it: the vast cold space of infinite replicas, continuing infinitely in every direction waiting indefinitely to be pulled off the shelf for the next willing consumer.<br/><br/>Since this was made, the rise of Amazon and online shopping has made “the warehouse” a more overt symbol of modern capitalism. Physical shops in our communities are being replaced entirely by massive warehouses completely invisible to us. I would like to continue exploring the symbolic nature of the warehouse in juxtaposition to the store in future works."
   },
+
   {
     "id": "personal-website",
     "name": "Personal Website",
@@ -71,6 +72,7 @@
     "thubmnail": "/img/bertha/thumbnail.png",
     "vimeoEmbed": "https://player.vimeo.com/video/483393206?portrait=0"
   },
+
   {
     "id": "ilux",
     "name": "ilux",
@@ -97,6 +99,7 @@
     "isFeaturedProject": true,
     "description": "As part of an advanced computer graphics course, we implemented a ray tracer using the Monte Carlo method using C++ and OpenGL. This approach produces more photorealistic results as compared to a single ray per pixel approach. The result of the the Monte Carlo method is more indirect illumination achieved by averaging the result of random samples of rays bouncing off a given point. The above rendered images show the improved effect of adding additional samples which takes additional computing time but produces cleaner results."
   },
+
   {
     "id": "motor-skills-rehab",
     "name": "Stroke Motor Skills Rehab Game",
@@ -136,6 +139,7 @@
     "vimeoEmbed": "https://player.vimeo.com/video/69353912?portrait=0",
     "description": "This film recreates an experience very common for the millennial generation: clicking through a stranger’s photos on the internet. Most of us have become fairly numb to the practice, feeling relatively safe peering into the lives of others anonymously. In this piece, I attempt to make the viewer once again uncomfortable with a certain type of internet voyeurism that has become second nature thanks to Facebook, Instagram, and Twitter. Hopefully the viewer leaves asking questions about internet privacy, contemporary digital culture, and where the responsibility lies when it comes to protecting our collective “private data” that might not be so private after all."
   },
+
   {
     "id": "subplot-branding",
     "name": "Subplot Brand Guidelines",
@@ -191,5 +195,12 @@
     ],
     "description": "Designed and built a website for IAAS (International Academy of Arts and Scriences), a bilungual preschool in New Jersey. ",
     "isHidden": true
+  },
+  {
+    "id": "the-crazy-stripes",
+    "name": "The Crazy Stripes",
+    "category": "art",
+    "thubmnail": "/img/the-crazy-stripes/thumbnail.png",
+    "vimeoEmbed": "https://player.vimeo.com/video/484643609?portrait=0&loop=1"
   }
 ]
