@@ -45,7 +45,7 @@ function CustomDescriptionBertha() {
           alt=""
         />
         <div className="p-custom-project__image_caption">
-          Still of Debby and Bertha in conversation from storyboard
+          Storyboard still of Debby and Bertha in conversation
         </div>
       </div>
 

@@ -18,7 +18,7 @@ a:hover,
 .p-footer a:hover,
 .p-footer__sign_off:hover .p-footer__sign_off_heart,
 .p-about__description_headline {
-  color: #5d9ad3;
+  color: #599bde;
 }
 
 .p-page-loader__page {
@@ -326,6 +326,7 @@ DEMO REEL
 .p-project__images img {
   max-height: 500px;
   max-width: 100%;
+  align-self: center;
 }
 
 .p-project__image img {

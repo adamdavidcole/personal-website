@@ -22,15 +22,18 @@ function CustomProjectVirtualGaga() {
       </p>
 
       <p>
-        The abstract of the research paper read as follows: MMOGs have become
-        extremely popular, but are usually restricted to specific consoles or
-        platforms. New web technologies such as Websockets and the HTML5 Canvas
-        element now allow for new cross platform multiplayer experiences. I plan
-        to explore this new potential by creating an online multiplayer game
-        which focuses on real time behavior relying only on technologies built
-        in to the browser. With this approach, I hope to demonstrate the
-        potential of these technologies as well as propel the movement into web
-        based Massivly Multiplayer Online Games (MMOGs) forward.
+        The abstract of the research paper reads as follows:
+        <blockquote>
+          MMOGs have become extremely popular, but are usually restricted to
+          specific consoles or platforms. New web technologies such as
+          Websockets and the HTML5 Canvas element now allow for new cross
+          platform multiplayer experiences. I plan to explore this new potential
+          by creating an online multiplayer game which focuses on real time
+          behavior relying only on technologies built in to the browser. With
+          this approach, I hope to demonstrate the potential of these
+          technologies as well as propel the movement into web based Massivly
+          Multiplayer Online Games (MMOGs) forward.
+        </blockquote>
       </p>
 
       <div className="p-custom-project__image_container">

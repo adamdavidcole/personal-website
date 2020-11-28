@@ -41,10 +41,10 @@ function PersonalWebsiteProject() {
         tangents, and scrapped ideas, I converted the most promising ideas to
         digital files in Adobe Illustrator. My favorite ideas played with the
         contrasting primitive shapes in my initials: the clear triangle in my
-        first initial and the circular curve in my second initial. As someone
-        who’s spent much of my creative career using digital tools like
-        Illustrator and Autodesk Maya, I felt highlighting these primitive
-        shapes was a fitting metaphor for a digital media design portfolio.
+        first initial and the circular curve in my second initial. Having spent
+        much of my creative career using digital tools like Illustrator and
+        Maya, I felt highlighting these primitive shapes was a fitting metaphor
+        for a digital media design portfolio.
       </p>
 
       <div className="p-custom-project__image_container">
@@ -64,11 +64,11 @@ function PersonalWebsiteProject() {
       <p>
         After working through several more polished iterations, I settled on a
         personal brand logo which subtly references the three primitive shapes
-        (triangle, circle, rectangle) while still being clean, flexible and
-        usable in nearly any context. With my logo designed and the basic
-        structure of my website in place, I was able to finish up a basic mock
-        of the homepage. The next step was converting it from an Illustrator
-        file to something actually usable.
+        (triangle, circle, square) while still being clean, flexible and usable
+        in nearly any context. With my logo designed and the basic structure of
+        my website in place, I was able to finish up a basic mock of the
+        homepage. The next step was converting it from an Illustrator file to
+        something actually usable.
       </p>
 
       <div className="p-custom-project__image_container">
@@ -89,10 +89,11 @@ function PersonalWebsiteProject() {
         remove projects without breaking the site structure. Similarly, I could
         visually rebrand the site without destroying the portfolio data. This
         concept is reflected in the very project structure itself: all portfolio
-        data lives in the data/ directory and all the presentational code lives
-        in components/. The project data itself is a JSON format with various
-        template fields that can optionally be included or left out, such as
-        “description”, “images”, or “video” giving the site further flexibility.
+        data lives in the <code>data/</code> directory and all the
+        presentational code lives in <code>components/</code>. The project data
+        itself is a JSON format with various template fields that can optionally
+        be included or left out, such as “description”, “images”, or “video”
+        giving the site further flexibility.
       </p>
 
       <div className="p-custom-project__image_container">

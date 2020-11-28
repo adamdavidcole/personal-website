@@ -24,11 +24,12 @@ function PersonalWebsiteProject() {
             were dropped into a hat and thirteen words were pulled out at
             random. These thirteen words would be the foundation for a script
             that would later become a stop-motion film. (The final list of words
-            can be seen in the credits of the film).
+            can be seen in the credits).
           </li>
           <li>
             All scenes had to be constructed from the raw materials found on the
-            farm (with only a €10 budget to spend at the village shop).
+            farm (the excepction being a €10 budget to spend at the village
+            shop).
           </li>
         </ul>
         Pre-production and filming took place during our free time before or
