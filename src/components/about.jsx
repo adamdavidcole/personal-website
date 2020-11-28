@@ -13,7 +13,7 @@ export default function About() {
         <div className="p-about__description">
           <p>👋 Hi there,</p>
           <h3 className="p-about__description_headline">
-            I'm a software engineer by day, a film junkie by night, and am
+            Iʼm a software engineer by day and a film addict by night. Iʼm
             excited about the creative technologies that can bridge the gap
             between those two worlds.
           </h3>

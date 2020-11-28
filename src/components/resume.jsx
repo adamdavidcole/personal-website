@@ -9,9 +9,7 @@ export default function Home() {
         <h2>Resume</h2>
         <iframe
           src={process.env.PUBLIC_URL + "AdamCole - CV.pdf"}
-          width="100%"
-          height="1000px"
-          margin="30px"
+          className="p-resume__file"
         ></iframe>
       </div>
       <Footer />

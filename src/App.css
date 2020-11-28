@@ -371,7 +371,8 @@ DEMO REEL
   margin-top: 30px;
 }
 
-.p-project__description p {
+.p-project__description p,
+.p-about p {
   margin-top: 18px;
   margin-bottom: 0;
   line-height: 23px;
@@ -621,6 +622,29 @@ DEMO REEL
   margin: 60px;
 }
 
+.p-resume__file {
+  width: 100%;
+  height: 1000px;
+}
+
+@media (max-width: 1100px) {
+  .p-resume__file {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 800px) {
+  .p-resume__file {
+    height: 800px;
+  }
+}
+
+@media (max-width: 500px) {
+  .p-resume__file {
+    height: 500px;
+  }
+}
+
 /*
 * About Me
 */
@@ -656,7 +680,12 @@ DEMO REEL
 .p-about__description h3,
 .p-about__description p {
   max-width: 600px;
-  /* min-width: 100%; */
+}
+
+.p-about__description h3 {
+  margin-bottom: 0;
+  margin-top: 18px;
+  line-height: 23px;
 }
 
 .p-about__heashot_containter {
@@ -687,6 +716,7 @@ DEMO REEL
 
   .p-about__title h2 {
     margin-top: 0;
+    margin-bottom: 30px;
   }
 
   .p-about__description {
