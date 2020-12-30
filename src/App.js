@@ -28,6 +28,7 @@ function App() {
           path={[
             "/projects/:projectId",
             "/projects",
+            "/sva",
             "/:projectsFilter/:projectId",
             "/:projectsFilter",
             "/",

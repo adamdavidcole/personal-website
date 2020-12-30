@@ -184,6 +184,10 @@ DEMO REEL
   margin: auto;
 }
 
+.p-reel__container + .p-reel__container {
+  margin-top: 30px;
+}
+
 @media (max-width: 1060px) {
   .p-reel__container {
     margin: 15px 30px;
