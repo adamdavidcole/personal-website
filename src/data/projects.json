@@ -37,6 +37,7 @@
     ],
     "description": "American Takeout is a physical sculpture and light installation using an interplay of American and Chinese symbols. <br/><br/> In the United States, the paper takeout box is widely associated with Chinese culture and cuisine, but I was interested to find out that these takeout boxes are an entirely American invention. In fact, they are rarely found in China at all. This discovery made me think about the ways cultural symbols arise and are coopted in the United States. <br/><br/>For the sculpture, I bought three Chinese take out boxes from my local Chinese restaurant. I used a laser cutter to make “flag-star” shaped holes in each box and installed them with red, white, and blue lights to aggressively radiate the colors and shapes of the American flag.<br/><br/>The mix of these familiar objects, colors and shapes is disorienting and calls into question whether the intertwining histories of these symbols is an example of America’s promise of multiculturalism or a reflection of this country’s ability to appropriate and peddle cultural symbols for capitalistic gain."
   },
+
   {
     "id": "virtual_gaga",
     "name": "Virtual Gaga Game",
@@ -119,6 +120,14 @@
     "category": "film-animation",
     "thubmnail": "/img/perdue/thumbnail.png",
     "vimeoEmbed": "https://player.vimeo.com/video/377025674?portrait=0"
+  },
+  {
+    "id": "leave_your_secrets_here",
+    "name": "Leave Your Secrets Here: VR Experience",
+    "category": "art",
+    "thubmnail": "/img/leave_your_secrets_here/thumbnail.png",
+    "description": "Leave Your Secrets Here is a virtual reality experience I created in Unity as part of Goldsmiths’ Virtual Reality <a href=\"https://www.coursera.org/specializations/virtual-reality\">online course</a>. The project objective was to create a 3D virtual space with sound.<br/><br/>When planning my “space”, I knew I wanted to create something atmospheric. Because I was developing for the Google Cardboard with no controllers, I knew the user would not be able to move around freely so I needed a mechanism for sound to float around the user to give the illusion of space. I decided to create a space with floating spheres that would orbit the user. Each orb would be an audio source that contained a secret which would repeat in an infinite loop.<br/><br/>The concept for this piece was inspired by the film “In The Mood For Love” by Wong Kar-Wai. Specifically the quote:<br/><blockquote>“In the old days, if someone had a secret they didn't want to share... you know what they did?...They went up a mountain, found a tree, carved a hole in it, and whispered the secret into the hole. Then they covered it with mud. And leave the secret there forever.”</blockquote>I was thinking about people’s conflicting desire to both share their secrets but also keep them eternally  hidden. I wanted to create a space for people to leave their secrets, in the same way the protagonist in the film eventually leaves his secrets at Angkor Wat.<br/><br/>The secrets in this piece were all sourced from <a href=\"https://postsecret.com/\">postsecret.com</a>. If I were to continue working on this piece, I’d want to make it interactive by allowing users to either speak or write their own personal secrets into the program. These would be added to scene and anonymously shared with other viewers also in this world.<br/><br/>This is my first VR project and a work in progress, but I am very excited about the medium’s possibilities.",
+    "vimeoEmbed": "https://player.vimeo.com/video/496910087"
   },
   {
     "id": "processing",
