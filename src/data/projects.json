@@ -105,7 +105,7 @@
     "name": "Stroke Motor Skills Rehab Game",
     "category": "code",
     "thubmnail": "/img/motor-skills-rehab/thumbnail.png",
-    "description": "Irish Frenzy is an open source game meant to assist stroke patients recover motor function in their physical therapy. The idea behind it was that patients would be more willing to actively participate in their physical training if a certain degree of play was introduced to the workouts. In addition, the game allows the physician and patient to track progress and increase the strenuousness of the physical activity as the patient improves. <br/><br/> The game is relatively simple, containing a character collecting coins, avoiding various obstacles and collecting power ups. The basic mechanics of the gameplay require the user to move back and forth to “win”. The project was built using the Android platform and has a public interface to allow integrations with hardware devices like hand or foot levers. The goal is to encourage the user to use very basic physical movements to play the game, which would be beneficial to stroke patients who are rehabilitating their motor functions. <br/><br/> This was a prototype developed for a university course in conjunction with the University of Pennsylvania medical research department.",
+    "description": "Irish Frenzy is an open source game meant to assist stroke patients recover motor function in their physical therapy. The idea behind it was that patients would be more willing to actively participate in their physical training if a certain degree of play was introduced to the workouts. In addition, the game allows the physician and patient to track progress and increase the strenuousness of the physical activity as the patient improves. <br/><br/> The game is relatively simple, containing a character collecting coins, avoiding various obstacles and collecting power ups. The basic mechanics of the gameplay require the user to move back and forth to “win”. The project was built using the Android platform and has a public interface to allow integrations with hardware devices like hand or foot levers. The goal is to encourage the patient to use very basic physical movements to play the game, which would be beneficial to stroke patients who are rehabilitating their motor functions. <br/><br/> This was a prototype developed for a university course in conjunction with the University of Pennsylvania medical research department.",
     "images": [
       "/img/motor-skills-rehab/image1.png",
       "/img/motor-skills-rehab/image2.png",
@@ -126,10 +126,11 @@
     "category": "art",
     "thubmnail": "/img/processing/thumbnail.png",
     "images": [
-      "/img/processing/image1.jpg",
-      "/img/processing/image3.png",
-      "/img/processing/image2.jpg"
-    ]
+      "/img/processing/image1-hidef.png",
+      "/img/processing/image2-hidef.png",
+      "/img/processing/image3.png"
+    ],
+    "description": "In this project, I wondered what it would mean for a piece of generated art to also reflect the process of its production in its final form. While a Jackson Pollock canvas contains the very physical strokes, drips, and clumps, of the creative painting process, this piece contains the equivalent of the computer generated work: if statements, for loops, and processing code overlaid on the final product. <br/><br/>The irony here is that while Gestural Painting attempts to express the subconscious, spontaneous, and very human actions of the artist creating, this piece expresses the cold, predictable, robotic code used to create the final generated piece. <br/><br/>While the code and output of this piece is relatively simple, it makes me wonder where the “art” in “generative art” actually lies. Is it simply the final product? Is the source code itself? Or, as represented in this piece, is it some combination of the two?"
   },
   {
     "id": "she-doesnt-know",
@@ -174,7 +175,7 @@
       "/img/the-artist-is-not-present/image4.png",
       "/img/the-artist-is-not-present/image5.jpg"
     ],
-    "description": "This piece was an \"guerrilla\" installation set up on my university’s campus. <br/><br/>Walking into the grand entrance of Penn’s English department, one is welcomed by an 8 foot portrait of Shakespeare. For my project, I decided to raise questions of authority. Seemingly, the English department seems to be saying, “admire Shakespeare, he is the ultimate author of the English language.” So in response I photoshopped my face onto a generic portrait of an intellectual, printed it out to the same 8ft by 7ft dimensions, and hung it over Shakespeare’s face. Above the portrait read a plaque saying “This is an Acclaimed Author” with a subscript which said, “Sponsored by the University of Pennsylvania’s English Department and Fine Arts Department”. The poster remained up for two months before anyone questioned its legitimacy.<br/><br/>This work predates phrases like “fake news” and “deep fakes”, but the question at the heart of it remain the same: in what ways are authority and truth linked and how much can we trust what we see with our eyes?"
+    "description": "This piece was an \"guerrilla\" installation set up on my university’s campus. <br/><br/>Walking into the grand entrance of Penn’s English department, one is welcomed by an 8 foot portrait of Shakespeare. For my project, I decided to raise questions of authority. With this portrait, the English department seems to be saying, “admire Shakespeare, he is the ultimate author of the English language.” So in response I photoshopped my face onto a generic portrait of an intellectual, printed it out to the same 8ft by 7ft dimensions, and hung it over Shakespeare’s face. Above the portrait read a plaque saying “This is an Acclaimed Author” with a subscript which said, “Sponsored by the University of Pennsylvania’s English Department and Fine Arts Department”. The poster remained up for two months before anyone questioned its legitimacy.<br/><br/>This work predates phrases like “fake news” and “deep fakes”, but the question at the heart of it remain the same: in what ways are authority and truth linked and how much can we trust what we see with our eyes?"
   },
   {
     "id": "three____",

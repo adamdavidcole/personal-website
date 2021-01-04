@@ -17,7 +17,7 @@ function CustomProjectVirtualGaga() {
         hypothesis set out that these technologies (such as Websockets and HTML5
         Canvas elements) could power exciting realtime online gaming scenarios.
         Over the past several years, adoption of these technologies confirmed
-        the hypothesis with realtime massive multi-multiplayer HTML5 games
+        the hypothesis with realtime massive multiplayer HTML5 games
         proliferating across the web.
       </p>
 

@@ -37,8 +37,8 @@ function PersonalWebsiteProject() {
       <p>
         Once I had decided on the basic structure and interaction of the site, I
         needed to define the basic look and feel. I started with sketching
-        several dozen concepts for a personal logo, and after many revision,
-        tangents, and scrapped ideas, I converted the most promising ideas to
+        several dozen concepts for a personal logo, and after many revisions,
+        tangents, and scrapped ideas, I converted the most promising sketches to
         digital files in Adobe Illustrator. My favorite ideas played with the
         contrasting primitive shapes in my initials: the clear triangle in my
         first initial and the circular curve in my second initial. Having spent
