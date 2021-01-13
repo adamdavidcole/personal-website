@@ -9,30 +9,26 @@ import FeaturedProjects from "./featured-projects";
 import Footer from "./footer";
 
 function RenderSvaVideo() {
-  return null;
-
-  // TODO: add SVA intro reel URL here
-
-  // return (
-  //   <div className="p-reel__container">
-  //     <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
-  //       <iframe
-  //         title="demo_reel"
-  //         src="https://player.vimeo.com/video/480172715?autoplay=0&loop=0&portrait=0"
-  //         style={{
-  //           position: "absolute",
-  //           top: 0,
-  //           left: 0,
-  //           width: "100%",
-  //           height: "100%",
-  //         }}
-  //         frameborder="0"
-  //         allow="autoplay; fullscreen"
-  //         allowfullscreen
-  //       ></iframe>
-  //     </div>
-  //   </div>
-  // );
+  return (
+    <div className="p-reel__container">
+      <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
+        <iframe
+          title="demo_reel"
+          src="https://player.vimeo.com/video/499929773?autoplay=0&loop=0&portrait=0"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+          }}
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  );
 }
 
 function RenderReelVideo() {
